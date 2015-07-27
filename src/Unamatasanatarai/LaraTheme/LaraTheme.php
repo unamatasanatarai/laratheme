@@ -1,4 +1,4 @@
-<?php
+<?php namespace Unamatasanatarai\LaraTheme;
 
 class LaraTheme {
     protected $theme = '';
