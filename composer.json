@@ -14,9 +14,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Unamatasanatarai\\LaraTheme\\": "src/Unamatasanatarai/LaraTheme"
-        }
+        "classmap": ["src/"]
     },
     "minimum-stability": "dev"
 }
