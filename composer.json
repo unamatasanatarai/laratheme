@@ -1,0 +1,22 @@
+{
+    "name": "unamatasanatarai/laratheme",
+    "type": "library",
+    "description": "Theme management helpr",
+    "homepage": "https://github.com/unamatasanatarai/laratheme",
+    "keywords": ["laravel5","themes","theme","view"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Unamata Sanatarai",
+            "email": "unamatasanatarai@gmail.com",
+            "homepage": "http://www.compelo.com/",
+            "role": "Main Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unamatasanatarai\\LaraTheme\\": "src/Unamatasanatarai/LaraTheme"
+        }
+    },
+    "minimum-stability": "dev"
+}
