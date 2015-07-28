@@ -50,9 +50,17 @@ class LaraTheme {
      * @return [type]       [description]
      */
     static public function element($view){
+        return self::path('elements.' . $view);
+    }
+
+    /**
+     * Get the path to the view
+     * @param  [type] $view [description]
+     * @return [type]       [description]
+     */
+    static public function path($view){
         $path = array_filter([
             self::getThemePath(),
-            'elements',
             $view
         ]);
         return implode('.', $path);
