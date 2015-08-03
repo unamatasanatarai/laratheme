@@ -74,11 +74,6 @@ class LaraTheme {
      */
     static public function render($view, $vars = [])
     {
-        $path = array_filter([
-            self::getThemePath(),
-            $view
-        ]);
-
-        return view(implode('.', $path), $vars);
+        return view(self::path($view), $vars);
     }
 }
